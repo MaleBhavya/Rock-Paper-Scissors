@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="header">
+            Rock Paper Scissors
+        </div>
+       <div class="realbody">
+
+        <div class="shoot">
+            <button class="circle" id="rock"><img id="rock1"src="Rock-2.jpeg" alt="Button Image">Rock</button>
+            <button class="circle" id="paper"><img id="paper1" src="Paper.jpeg" alt="Button Image">Paper</button>
+            <button class="circle" id="scissors"><img id="scissors1" src="Scissors.png" alt="Button Image">Scissors</button>
+        </div>
+        <div class="scores">
+            <table border="1" style="width: 180px; height: 20%; border-collapse: collapse; font-family: Arial, sans-serif;">
+                <thead>
+                    <tr style="background-color: #634123; color: white;">
+                        <th style="text-align: center; width: 90px; height: 25px; border: 1px solid #070707;">You</th>
+                        <th style="text-align: center; width: 90px; height: 25px; border: 1px solid #070707;">Computer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: #EFEFEF;">
+                        <td id="yourScore" style="text-align: center; width: 90px; height: 25px; border: 1px solid #070707;"></td>
+                        <td id="computerScore" style="text-align: center; width: 90px; height: 25px; border: 1px solid #070707;"></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+            
+        </div>
+        <button class="ResetGame">Reset Game</button>
+        <div class="msg-container">
+            <h1 id="msg">
+            </h1>
+            <h1 id="msg2">
+            </h1>
+           
+        </div>
+
+        <div class="msg-container">
+            <h1 id="msg3">
+            </h1>
+           
+        </div>
+        <button class="NewGame">New Game</button>
+
+
+       </div>
+
+       <script src="app.js"></script>
+
+</body>
+</html>
